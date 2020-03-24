@@ -1,5 +1,7 @@
 #实验报告
+
 ##无人值守安装iso
+
 ###软件环境：
 Mac os Catalina
 Parallels Desktop for Mac
@@ -79,3 +81,7 @@ Ubuntu-18.04.4-server-amd64
 ![1](/image/error7.png)
 
 无法解决不能复制粘贴的问题，初步怀疑是某个地方打错了。
+
+####解决
+通过Mac SSH远程连接虚拟机，在Mac终端操作
+![1](image/error7解决.png)
