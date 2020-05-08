@@ -10,8 +10,8 @@ before_install:
 
 script:
         - echo "task 1------------"
-        - shellcheck ~/task2.sh
-        - bash ~/task2.sh -h
+        - shellcheck HW4/task2.sh
+        - bash HW4/task2.sh -h
         - bash HW4/task2.sh -a
         - bash HW4/task2.sh -b
         - bash HW4/task2.sh -c
