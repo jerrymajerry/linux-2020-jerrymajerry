@@ -11,11 +11,11 @@ before_install:
 script:
         - echo "task 1------------"
         - shellcheck HW4/task1.sh
-        - bash task1.sh -c
+        - bash HW4/task1.sh -c
         - bash HW4/task1.sh -q
         - bash HW4/task1.sh -s
-        - bash HW4/task1.sh  -a
-        - bash HW4/task1.sh  -r
+        - bash HW4/task1.sh -a
+        - bash HW4/task1.sh -r
         - echo "task 2------------"
         - shellcheck HW4/task2.sh
         - bash HW4/task2.sh -h
@@ -25,13 +25,13 @@ script:
         - bash HW4/task2.sh -d
         - echo "task 3------------"
         - shellcheck task3.sh
-        - bash HW4/task3.sh  -h
+        - bash HW4/task3.sh -h
         - bash HW4/task3.sh -a
-        - bash HW4/task3.sh  -b
-        - bash HW4/task3.sh  -c
-        - bash HW4/task3.sh  -d
-        - bash HW4/task3.sh  -e
-        - bash HW4/task3.sh  -f 
+        - bash HW4/task3.sh -b
+        - bash HW4/task3.sh -c
+        - bash HW4/task3.sh -d
+        - bash HW4/task3.sh -e
+        - bash HW4/task3.sh -f 
 
 notifications:
   email:
