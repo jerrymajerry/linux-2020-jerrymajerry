@@ -24,7 +24,7 @@ script:
         - bash HW4/task2.sh -c
         - bash HW4/task2.sh -d
         - echo "task 3------------"
-        - shellcheck task3.sh
+        - shellcheck HW4/task3.sh
         - bash HW4/task3.sh -h
         - bash HW4/task3.sh -a
         - bash HW4/task3.sh -b
