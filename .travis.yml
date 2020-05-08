@@ -11,7 +11,7 @@ before_install:
 script:
         - echo "task 1------------"
         - shellcheck HW4/task1.sh
-        - bash HW4/task1.sh -c
+        - bash task1.sh -c
         - bash HW4/task1.sh -q
         - bash HW4/task1.sh -s
         - bash HW4/task1.sh  -a
