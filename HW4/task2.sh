@@ -48,19 +48,19 @@ function Oldest_Youngest_Player()
 
 read -p "请输入命令:" command_1
 case "$command_1" in
-       a)
+       -a)
               Player_Age
               ;;
-       b)
+       -b)
               Player_Position
               ;;
-       c)
+       -c)
               Longest_Shortest_Player_Name
               ;;
-       d)
+       -d)
               Oldest_Youngest_Player
               ;;
-       h)
+       -h)
               help_file
               ;;
 esac

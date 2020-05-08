@@ -44,25 +44,25 @@ function URL_TOP100_Host()
 
 read -p "请输入命令:" command_1
 case "$command_1" in
-       a)
+       -a)
               Host_TOP100
               ;;
-       b)
+       -b)
               Host_IP_TOP100
               ;;
-       c)
+       -c)
               URL_TOP100
               ;;
-       d)
+       -d)
               Different_Response
               ;;
-       e)
+       -e)
               4XX_Response_TOP10_URL
               ;;
-       f)
+       -f)
               URL_TOP100_Host
               ;;    
-       h)
+       -h)
               help_file
               ;;
 esac

@@ -68,22 +68,22 @@ function rename()
 
 read -p "请输入命令:" command_1
 case "$command_1" in
-       c)
+       -c)
               png/svg_change_to_jpg
               ;;
-       q)
+       -q)
               jpg_quality_compresion
               ;;
-       s)
+       -s)
               jpg/png/svg_resize
               ;;
-       a)
+       -a)
               add_watermark
               ;;
-       r)
+       -r)
               rename
               ;;
-       h)     
+       -h)     
               help_file
               ;;
 esac
